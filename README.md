@@ -146,11 +146,7 @@ Aplikasi demo dapat diakses di: [aplikasi-perpustakaan-iz.wuaze.com](http://apli
 
 ## 📸 Screenshot
 
-![Login Page](/screenshots/login.png)
 ![Dashboard](/screenshots/dashboard.png)
-![Add Book Form](/screenshots/tambah-buku.png)
-![Edit Book Form](/screenshots/edit-buku.png)
-![PDF Report](/screenshots/laporan-pdf.png)
 
 ## 👨‍💻 Pengembang
 
