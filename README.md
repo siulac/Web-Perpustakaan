@@ -146,7 +146,7 @@ Aplikasi demo dapat diakses di: [aplikasi-perpustakaan-iz.wuaze.com](http://apli
 
 ## 📸 Screenshot
 
-![Dashboard](/screenshots/dashboardd.png)
+![Dashboard](/screenshots/dashboard.png)
 
 ## 👨‍💻 Pengembang
 
